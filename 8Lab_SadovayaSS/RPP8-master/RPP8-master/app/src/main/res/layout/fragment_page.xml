@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="20dp"
+    android:background="#ADF4BBCE">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:hint="@string/hint"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:layout_marginBottom="14dp"
+            android:textColor="#993FB5"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:fontFamily="georgia"
+            android:divider="#ADC54B73"
+            android:dividerHeight="2dp"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="@string/search"
+            android:textSize="20sp"
+            android:background="#EE9FFB"
+            android:textColor="#993FB5"
+            android:fontFamily="georgia"
+            android:elevation="6dp"
+            android:stateListAnimator="@null"
+            android:translationZ="4dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#283593"
+        android:fontFamily="georgia"
+        android:divider="#ADC54B73"
+        android:dividerHeight="2dp"/>
+
+    <Button
+        android:id="@+id/resButton"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="end"
+        android:text="@string/path"
+        android:textSize="20sp"
+        android:background="#EE9FFB"
+        android:textColor="#993FB5"
+        android:onClick="onShowPathClick"
+        android:fontFamily="georgia"/>
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        tools:context=".MainActivity"/>
+
+</LinearLayout>

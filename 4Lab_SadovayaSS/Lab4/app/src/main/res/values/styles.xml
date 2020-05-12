@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#E91E63</item>
+        <item name="colorPrimaryDark">#E91E63</item>
+        <item name="colorAccent">#E91E63</item>
+    </style>
+
+    <style name="CalendarDialog" parent="android:style/Theme.Translucent">
+        <item name="android:datePickerDialogTheme">@style/DatePickerSleep</item>
+    </style>
+
+    <style name="DatePickerSleep" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#E91E63</item>
+    </style>
+</resources>

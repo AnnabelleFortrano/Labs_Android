@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LR2_5</string>
+    <string name="JSONURL">https://raw.githubusercontent.com/wesleywerner/ancient-tech/02decf875616dd9692b31658d92e64a20d99f816/src/data/techs.ruleset.json</string>
+    <string name="imageURL">https://raw.githubusercontent.com/wesleywerner/ancient-tech/02decf875616dd9692b31658d92e64a20d99f816/src/images/tech/</string>
+</resources>

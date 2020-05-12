@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab8</string>
+
+    <string name="from">From</string>
+    <string name="to">To</string>
+
+    <string name="hint">Enter your address…</string>
+    <string name="search">Search</string>
+    <string name="path">Route</string>
+    <string name="result">Not found</string>
+
+    <string name="google_maps_key">AIzaSyAI4nxhTP5r6zfpS5cgEJ63k4uNw3wzaDs</string>
+</resources>
